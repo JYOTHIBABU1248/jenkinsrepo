@@ -28,7 +28,6 @@ class StorageClient:
             f"--time_based "
             f"--runtime={runtime} "
             f"--group_reporting "
-            f"--unlink=0 "
             f"--output-format=json"
         )
         return self.ssh.runcmd(cmd)
