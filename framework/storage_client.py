@@ -23,7 +23,7 @@ class StorageClient:
             f"--directory={mount_point} "
             f"--rw=readwrite "
             f"--bs=4k "
-            f"--size=100M "
+            f"--size=90M "
             f"--numjobs=1 "
             f"--time_based "
             f"--runtime={runtime} "
